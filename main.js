@@ -7,6 +7,6 @@ console.warn('Lehet hiba');
 // -- Változók
 
 //let, const, var
-const kor = 20;
-//kor = 21;
+let kor = 20;
+kor = 21;
 console.log(kor);
