@@ -43,4 +43,4 @@ let szoveg = 'Hello';
 let lista = 'alma, körte, banán';
 //console.log(szoveg.split(''));
 
-console.log(date.getDate);
+console.log(date.getMonth()+1);
