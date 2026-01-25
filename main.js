@@ -19,7 +19,7 @@ const nev = 'Vilmos'; //String
 const kor2 =21; // Number
 const suly = 100; // Number
 const felnott = true; // Boolean
-const date = new Date('2020-10-01');
+const date = new Date( '2020-10-01' );
 
 const x = null;
 let y;
@@ -36,4 +36,11 @@ let nev2 = 'Vilmos';
 
 let szoveg = 'Hello';
 
-console.log('${szoveg} ${nev2}!!!!');
+//console.log( `${szoveg} ${nev2}!!!!`);
+
+//console.log(szoveg.length);
+//console.log(szoveg.toLowerCase());
+let lista = 'alma, körte, banán';
+//console.log(szoveg.split(''));
+
+console.log(date.getDate);
