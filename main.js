@@ -43,4 +43,36 @@ let szoveg = 'Hello';
 let lista = 'alma, körte, banán';
 //console.log(szoveg.split(''));
 
-console.log(date.getMonth()+1);
+date.setFullYear(2024);
+
+//console.log(date);
+
+// -- FELTÉTELEK
+
+const x1 = 14;
+const x2 = '13';
+
+/* if(x1 == 12) {
+    console.log('IGAZ');
+} else if (x1 == 13) {
+    console.log('Majdnem IGAZ');
+} else {
+    console.log('NEM IGAZ')
+} */
+
+/* switch (x1) {
+    case 10:
+    console.log('IGAZ');
+    break;
+    case 13:
+    console.log('kicsit IGAZ');
+    break;
+    default:
+        console.log('NEM IGAZ');
+} */
+
+if (x1 == x2 &&  (x1 < 10 || x2 == 14)) {
+    console.log('IGAZ');
+
+
+}
