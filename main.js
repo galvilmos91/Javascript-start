@@ -40,7 +40,7 @@ let szoveg = 'Hello';
 
 //console.log(szoveg.length);
 //console.log(szoveg.toLowerCase());
-let lista = 'alma, körte, banán';
+//let lista = 'alma, körte, banán';
 //console.log(szoveg.split(''));
 
 date.setFullYear(2024);
@@ -50,7 +50,7 @@ date.setFullYear(2024);
 // -- FELTÉTELEK
 
 const x1 = 14;
-const x2 = '13';
+const x2 = '14';
 
 /* if(x1 == 12) {
     console.log('IGAZ');
@@ -71,8 +71,26 @@ const x2 = '13';
         console.log('NEM IGAZ');
 } */
 
-if (x1 == x2 &&  (x1 < 10 || x2 == 14)) {
+/* if (x1 == x2 && (x1 < 10 || x2 == 14)) {
     console.log('IGAZ');
-
-
 }
+
+const color = x1 > 10 ? 'piros' : 'kek'; */
+
+//console.log(color);
+
+/* if (!1) {
+    console.log ('IGAZ');
+} */
+
+/* if (x1 == x2 && x1 > 10 && x2 == 14) {
+    console.log('IGAZ');
+} */
+
+if (!1) {
+    console.log('IGAZ');
+}   
+
+const color = x1 > 10? 'piros' : 'kek';
+
+console.log(color);
